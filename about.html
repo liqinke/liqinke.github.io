@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>About | Selected recent works</title>
   <meta name="description" content="Personal research webpage on github.io" />
-  <meta name="generator" content="bookdown 0.20.2 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
   <meta property="og:title" content="About | Selected recent works" />
   <meta property="og:type" content="book" />
@@ -31,7 +31,9 @@
   
 <link rel="prev" href="index.html"/>
 <link rel="next" href="research.html"/>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -47,9 +49,33 @@
 
 
 
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
 
 
 
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -69,9 +95,37 @@
 <li class="divider"></li>
 <li><a href="index.html#section"></a></li>
 <li class="chapter" data-level="" data-path="about.html"><a href="about.html"><i class="fa fa-check"></i>About</a></li>
-<li class="chapter" data-level="" data-path="research.html"><a href="research.html"><i class="fa fa-check"></i>Research</a><ul>
-<li class="chapter" data-level="0.1" data-path="research.html"><a href="research.html#magnetic-2d-van-der-waals-materials"><i class="fa fa-check"></i><b>0.1</b> Magnetic 2D van der Waals materials</a></li>
-<li class="chapter" data-level="0.2" data-path="research.html"><a href="research.html#magnetic-topological-materials"><i class="fa fa-check"></i><b>0.2</b> Magnetic topological materials</a></li>
+<li class="chapter" data-level="1" data-path="research.html"><a href="research.html"><i class="fa fa-check"></i><b>1</b> Research</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="d-van-der-waals-materials.html"><a href="d-van-der-waals-materials.html"><i class="fa fa-check"></i><b>1.1</b> 2D van der Waals materials</a>
+<ul>
+<li class="chapter" data-level="1.1.1" data-path="d-van-der-waals-materials.html"><a href="d-van-der-waals-materials.html#program-scope"><i class="fa fa-check"></i><b>1.1.1</b> Program Scope</a></li>
+<li class="chapter" data-level="1.1.2" data-path="d-van-der-waals-materials.html"><a href="d-van-der-waals-materials.html#recent-progress"><i class="fa fa-check"></i><b>1.1.2</b> Recent Progress</a></li>
+<li class="chapter" data-level="1.1.3" data-path="d-van-der-waals-materials.html"><a href="d-van-der-waals-materials.html#section-1"><i class="fa fa-check"></i><b>1.1.3</b> </a></li>
+</ul></li>
+<li class="chapter" data-level="1.2" data-path="magnetic-topological-materials.html"><a href="magnetic-topological-materials.html"><i class="fa fa-check"></i><b>1.2</b> Magnetic topological materials</a></li>
+<li class="chapter" data-level="1.3" data-path="skyrmions-and-chiral-magnetism.html"><a href="skyrmions-and-chiral-magnetism.html"><i class="fa fa-check"></i><b>1.3</b> Skyrmions and Chiral magnetism</a></li>
+<li class="chapter" data-level="1.4" data-path="permanent-magnets.html"><a href="permanent-magnets.html"><i class="fa fa-check"></i><b>1.4</b> Permanent Magnets</a></li>
+<li class="chapter" data-level="1.5" data-path="spin-orbit-coupling.html"><a href="spin-orbit-coupling.html"><i class="fa fa-check"></i><b>1.5</b> Spin-Orbit Coupling</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="methods-and-codes-developments.html"><a href="methods-and-codes-developments.html"><i class="fa fa-check"></i><b>2</b> Methods and codes developments</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="ab-initio-linear-response-methods.html"><a href="ab-initio-linear-response-methods.html"><i class="fa fa-check"></i><b>2.1</b> <em>Ab initio</em> linear response methods</a>
+<ul>
+<li class="chapter" data-level="2.1.1" data-path="ab-initio-linear-response-methods.html"><a href="ab-initio-linear-response-methods.html#features-and-capabilities"><i class="fa fa-check"></i><b>2.1.1</b> Features and Capabilities</a></li>
+<li class="chapter" data-level="2.1.2" data-path="ab-initio-linear-response-methods.html"><a href="ab-initio-linear-response-methods.html#relevant-publications"><i class="fa fa-check"></i><b>2.1.2</b> Relevant publications</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="tight-binding.html"><a href="tight-binding.html"><i class="fa fa-check"></i><b>2.2</b> Tight-binding</a>
+<ul>
+<li class="chapter" data-level="2.2.1" data-path="tight-binding.html"><a href="tight-binding.html#features-and-capabilities-1"><i class="fa fa-check"></i><b>2.2.1</b> Features and Capabilities</a></li>
+<li class="chapter" data-level="2.2.2" data-path="tight-binding.html"><a href="tight-binding.html#relevant-publications-1"><i class="fa fa-check"></i><b>2.2.2</b> Relevant publications</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="nonlinear-spinwave-code.html"><a href="nonlinear-spinwave-code.html"><i class="fa fa-check"></i><b>2.3</b> Nonlinear spinwave code</a>
+<ul>
+<li class="chapter" data-level="2.3.1" data-path="nonlinear-spinwave-code.html"><a href="nonlinear-spinwave-code.html#features-and-capabilities-2"><i class="fa fa-check"></i><b>2.3.1</b> Features and Capabilities</a></li>
+<li class="chapter" data-level="2.3.2" data-path="nonlinear-spinwave-code.html"><a href="nonlinear-spinwave-code.html#relevant-publications-2"><i class="fa fa-check"></i><b>2.3.2</b> Relevant publications</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="micromagnetics.html"><a href="micromagnetics.html"><i class="fa fa-check"></i><b>2.4</b> Micromagnetics</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="publications.html"><a href="publications.html"><i class="fa fa-check"></i>Publications</a></li>
 <li class="divider"></li>
@@ -97,32 +151,24 @@
 <div id="about" class="section level1 unnumbered">
 <h1>About</h1>
 <p>Liqin Ke, Ph.D.<br />
-Research Scientist<br />
+Scientist II<br />
 Division of Materials Science &amp; Engineering<br />
 Ames Laboratory, USDOE<br />
-Emai: <a href="mailto:liqinke@ameslab.gov">liqinke@ameslab.gov</a><br />
+Emai: <a href="mailto:liqinke@ameslab.gov" class="email">liqinke@ameslab.gov</a><br />
+Phone: (515) 294-8483<br />
 Website: <a href="https://liqinke.github.io" class="uri">https://liqinke.github.io</a><br />
-<a href="https://scholar.google.com/citations?user=fbKAPbgAAAAJ&amp;hl=en">Google scholar</a></p>
+<a href="https://scholar.google.com/citations?user=fbKAPbgAAAAJ&amp;hl=en">Google scholar</a><br />
+<a href="https://academictree.org/physics/tree.php?pid=877690">Physics Tree</a></p>
+<div class="figure" style="text-align: left"><span style="display:block;" id="fig:commencement"></span>
+<img src="https://news.asu.edu/sites/default/files/styles/asu_news_gallery_image/public/images/19_2009_spring_commencement_8942w-1.jpg?itok=ejp2o6SU" alt="Regents Professor Subhash Mahajan (currently, UC Davis), a member of the National Academy of Engineering and then chair of MSE, places the doctoral hood on Liqin Ke." width="60%" />
+<p class="caption">
+Figure 0.4: Regents Professor Subhash Mahajan (currently, UC Davis), a member of the National Academy of Engineering and then chair of MSE, places the doctoral hood on Liqin Ke.
+</p>
+</div>
 <hr />
-<p>I completed my Ph.D. at Arizona state university under <a href="https://www.kcl.ac.uk/people/mark-van-schilfgaarde">Prof. Mark van Schilfgaarde</a> (currently, Department of Physics, King’s College London, UK) in 2009. <!-- I completed my Ph.D. at Arizona state university in 2009. --> My research interests lie in the fields of electronic structure methods and magnetism, with a current focus on electron correlations and spin excitations in 2D materials, magnetic topological materials, and other quantum materials.</p>
-<p>Recent research interests:</p>
-<ul>
-<li>Develop and apply <em>ab initio</em> dynamic spin susceptibility to describe magnetic interactions and spin excitations <a href="https://www.nature.com/articles/s41524-020-00469-2"><em>npj</em> Comput Mater 7, 4 (2021)</a>.</li>
-<li>Develop a highly efficient Green’s-function-based <em>ab initio</em> framework to analyze spin exchange and two-ion magnetocrystalline anisotropy <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.99.054418">Phys. Rev. B 99, 054418 (2019)</a>.</li>
-<li>Besides numerical methods, I also enjoy analytical modeling, especially modeling of spin-orbit-coupling physics <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.92.014423">Phys. Rev. B, 92:014423 (2015)</a>.</li>
-</ul>
-<hr />
-<ul>
-<li>2020<br />
- <span class="citation">(L. Ke and Katsnelson <a href="publications.html#ref-ke2021ncm">2021</a>; Y. Lee, Kotani, and Ke <a href="publications.html#ref-lee2020prbr">2020</a>; Kim et al. <a href="publications.html#ref-kim2020nl">2020</a>; B. Li et al. <a href="publications.html#ref-li2020prl">2020</a>; Timmons et al. <a href="publications.html#ref-timmons2020prr">2020</a>; Islam et al. <a href="publications.html#ref-islam2020prb">2020</a>)</span></li>
-<li>2019<br />
- <span class="citation">(L. Ke <a href="publications.html#ref-ke2019prb">2019</a>; Ji et al. <a href="publications.html#ref-ji2019prb">2019</a>)</span></li>
-<li>2018<br />
- <span class="citation">(Peng et al. <a href="publications.html#ref-peng2018nl">2018</a>; Zhou et al. <a href="publications.html#ref-zhou2018am">2018</a>)</span></li>
-<li>2017<br />
- <span class="citation">(L. Ke, Harmon, and Kramer <a href="publications.html#ref-ke2017prb">2017</a>; L. Ke et al. <a href="publications.html#ref-ke2017apl">2017</a>)</span></li>
-</ul>
-<!-- Magnetocrystalline anisotropy energy as a function of $T$ in  Li$_{2}$[(Li$_{0.5}T_{0.5}$)N] for different $T$ elements -->
+<p>I completed my Ph.D. at Arizona state university under <a href="https://www.kcl.ac.uk/people/mark-van-schilfgaarde">Prof. Mark van Schilfgaarde</a> (currently, Department of Physics, King’s College London, UK) in 2009.
+<!-- I completed my Ph.D. at Arizona state university in 2009. -->
+My research interests lie in the fields of electronic structure methods and magnetism, with a current focus on electron correlations and spin excitations in 2D materials, magnetic topological materials, and other quantum materials.</p>
 
 </div>
             </section>
@@ -135,7 +181,6 @@ Website: <a href="https://liqinke.github.io" class="uri">https://liqinke.github.
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -154,6 +199,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
@@ -174,6 +220,10 @@ gitbook.start({
 "text": null
 },
 "download": ["githubio.pdf", "githubio.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "subsection"
 }
@@ -186,7 +236,7 @@ gitbook.start({
   (function () {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    var src = "";
+    var src = "true";
     if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
     if (location.protocol !== "file:")
       if (/^https?:/.test(src))
