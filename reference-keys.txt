@@ -1,13 +1,9 @@
 fig:unnamed-chunk-1
 fig:unnamed-chunk-2
-fig:unnamed-chunk-3
 fig:commencement
 fig:overview-diagram
 research
 d-van-der-waals-materials
-program-scope
-recent-progress
-section-1
 magnetic-topological-materials
 skyrmions-and-chiral-magnetism
 permanent-magnets
