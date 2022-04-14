@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>2.1 Ab initio linear response | githubio.knit</title>
+  <meta name="description" content="Personal research webpage on github.io" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="2.1 Ab initio linear response | githubio.knit" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Personal research webpage on github.io" />
+  <meta name="github-repo" content="github.com/liqinke/liqinke.github.io" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="2.1 Ab initio linear response | githubio.knit" />
+  
+  <meta name="twitter:description" content="Personal research webpage on github.io" />
+  
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="methods-and-codes-developments.html"/>
+<link rel="next" href="tight-binding.html"/>
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./index.html">Liqin Ke</a></li>
+
+<li class="divider"></li>
+<li><a href="index.html#section"></a></li>
+<li class="chapter" data-level="" data-path="about.html"><a href="about.html"><i class="fa fa-check"></i>About</a></li>
+<li class="chapter" data-level="1" data-path="research.html"><a href="research.html"><i class="fa fa-check"></i><b>1</b> Research</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="d-van-der-waals-materials.html"><a href="d-van-der-waals-materials.html"><i class="fa fa-check"></i><b>1.1</b> 2D van der Waals materials</a></li>
+<li class="chapter" data-level="1.2" data-path="magnetic-topological-materials.html"><a href="magnetic-topological-materials.html"><i class="fa fa-check"></i><b>1.2</b> Magnetic topological materials</a></li>
+<li class="chapter" data-level="1.3" data-path="superconducting-materials.html"><a href="superconducting-materials.html"><i class="fa fa-check"></i><b>1.3</b> Superconducting Materials</a></li>
+<li class="chapter" data-level="1.4" data-path="skyrmions-and-chiral-magnetism.html"><a href="skyrmions-and-chiral-magnetism.html"><i class="fa fa-check"></i><b>1.4</b> Skyrmions and Chiral magnetism</a></li>
+<li class="chapter" data-level="1.5" data-path="permanent-magnets.html"><a href="permanent-magnets.html"><i class="fa fa-check"></i><b>1.5</b> Permanent Magnets</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="methods-and-codes-developments.html"><a href="methods-and-codes-developments.html"><i class="fa fa-check"></i><b>2</b> Methods and codes developments</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="ab-initio-linear-response.html"><a href="ab-initio-linear-response.html"><i class="fa fa-check"></i><b>2.1</b> <em>Ab initio</em> linear response</a></li>
+<li class="chapter" data-level="2.2" data-path="tight-binding.html"><a href="tight-binding.html"><i class="fa fa-check"></i><b>2.2</b> Tight-binding</a></li>
+<li class="chapter" data-level="2.3" data-path="spinwave-theory.html"><a href="spinwave-theory.html"><i class="fa fa-check"></i><b>2.3</b> Spinwave theory</a></li>
+<li class="chapter" data-level="2.4" data-path="micromagnetics.html"><a href="micromagnetics.html"><i class="fa fa-check"></i><b>2.4</b> Micromagnetics</a></li>
+<li class="chapter" data-level="2.5" data-path="analytical-modeling.html"><a href="analytical-modeling.html"><i class="fa fa-check"></i><b>2.5</b> Analytical modeling</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="publications.html"><a href="publications.html"><i class="fa fa-check"></i>Publications</a></li>
+<li class="divider"></li>
+<li><a href="https://liqinke.github.io" target="blank">liqinke.github.io</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./"></a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="ab-initio-linear-response" class="section level2" number="2.1">
+<h2><span class="header-section-number">2.1</span> <em>Ab initio</em> linear response</h2>
+<div id="featured-work" class="section level4 unnumbered">
+<h4>Featured work</h4>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-4"></span>
+<img src="images/research/ke2020arxiv.png" alt="Stoner excitations and spinwave excitations calculated from $Im[\chi_{0}( {\bf q}, \omega )]$ and $Im[\chi( {\bf q}, \omega )]$ in Rhobohedral CrI$_3$. Electron correlations beyond DFT are needed to better describe the magnetic interactions and excitations." width="80%" />
+<p class="caption">
+Figure 2.1: Stoner excitations and spinwave excitations calculated from <span class="math inline">\(Im[\chi_{0}( {\bf q}, \omega )]\)</span> and <span class="math inline">\(Im[\chi( {\bf q}, \omega )]\)</span> in Rhobohedral CrI<span class="math inline">\(_3\)</span>. Electron correlations beyond DFT are needed to better describe the magnetic interactions and excitations.
+</p>
+</div>
+<blockquote>
+<p>Electron correlation effects on exchange interactions and spin excitations in 2D van der Waals materials<br />
+Liqin Ke and Mikhail I. Katsnelson<br />
+<a href="https://www.nature.com/articles/s41524-020-00469-2"><em>npj</em> Comput Mater 7, 4 (2021)</a></p>
+</blockquote>
+</div>
+<div id="features-and-capabilities" class="section level4 unnumbered">
+<h4>Features and Capabilities</h4>
+<ul>
+<li>Bare and full dynamic transverse spin susceptibilities: <span class="math inline">\(\chi_0^\pm({\bf q},\omega)\)</span> and <span class="math inline">\(\chi^\pm({\bf q},\omega)\)</span></li>
+<li>Exchange coupling <span class="math inline">\(J_{ij}({\bf R})\)</span></li>
+</ul>
+</div>
+<div id="brief-descriptions" class="section level4 unnumbered">
+<h4>Brief descriptions</h4>
+<ol style="list-style-type: decimal">
+<li><strong>Dynamic transverse spin susceptibility <span class="math inline">\({ \chi^{+-} \left( {\bf q}, \omega \right) }\)</span></strong></li>
+</ol>
+<p>Starting from an <span class="math inline">\(\textit{ab initio}\)</span> single-particle Hamiltonian <span class="math inline">\(H\)</span>, such as the LDA Hamiltonian, the non-interacting transverse spin susceptibility <span class="math inline">\(\chi_{0}^{+-} \left( {\bf q}, \omega \right)\)</span> can be calculated using the eigenvalues and eigenfunctions of <span class="math inline">\(H\)</span> within linear response theory~.
+<span class="math display">\[\begin{eqnarray}
+\chi_0^{+-}({\bf r},{\bf r}&#39;,{\bf q}, \omega) &amp;=&amp;
+ \sum^{\rm  occ}_{{\bf k}n \downarrow} \sum^{\rm unocc}_{{\bf k}&#39; n&#39;\uparrow}
+\frac{
+\Psi_{{\bf k}n\downarrow}^*({\bf r})      \Psi_{{\bf k}&#39; n&#39;\uparrow}({\bf r})
+\Psi_{{\bf k}&#39; n&#39;\uparrow}^*({\bf r}&#39;) \Psi_{{\bf k}n\downarrow}({\bf r}&#39;)
+}{\omega-(\epsilon_{{\bf k}&#39; n&#39;\uparrow}-\epsilon_{{\bf k}n\downarrow})+i \delta} \nonumber\\ 
+&amp;+&amp; \sum^{\rm  unocc}_{{\bf k}n \downarrow} \sum^{\rm occ}_{{\bf k}&#39; n&#39;\uparrow}
+\frac{
+\Psi_{{\bf k}n\downarrow}^*({\bf r})      \Psi_{{\bf k}&#39; n&#39;\uparrow}({\bf r})
+\Psi_{{\bf k}&#39; n&#39;\uparrow}^*({\bf r}&#39;) \Psi_{{\bf k}n\downarrow}({\bf r}&#39;)
+}{-\omega-(\epsilon_{{\bf k}n\downarrow}-\epsilon_{{\bf k}&#39; n&#39;\uparrow})+i \delta},
+\label{generalchi01q}
+\end{eqnarray}\]</span>
+where <span class="math inline">\({\bf k}&#39; = {\bf q}+ {\bf k}\)</span>. Here we assume the response is stationary and system posseses translational symmetry.
+Within RPA, the full susceptibilities are calculated using <span class="math inline">\(\chi=\chi_0 + \chi_0 I \chi\)</span>.
+Within time-dependent LDA, the exchange correlation kernel can be explicitly calculated using <span class="math inline">\(I_{\rm xc}^{+-}={B_{\rm xc}({\bf r})}/{m}({\bf r})\)</span> for a collinear spin structure.
+In general, we represent two-particle quantities <span class="math inline">\(\chi^{0}\)</span>, <span class="math inline">\(\chi\)</span> and <span class="math inline">\(I\)</span> using a mixed basis~ <span class="math inline">\(\{B_{i}({\bf r})\}\)</span>, which consists of the product basis~ within the augmentation spheres and interstitial plane waves.
+The product basis itself is constructed by the products of wavefunctions and their energy derivatives within the augmentation spheres.
+Since magnetic moment and response are nearly completely confined within the magnetic Cr sites, we further project <span class="math inline">\(\chi( \mathbf{q},\omega )\)</span> onto the functions <span class="math inline">\(\{m_i({\bf r})/||m_i||\}\)</span> representing normalized local spin densities on each magnetic site, which gives a matrix <span class="math inline">\(\chi _{ij}( \mathbf{q},\omega )\)</span> in magnetic basis site indices~.
+This projection corresponds to the rigid spin approximation (RSA), which is a modest approximation for magnetic semiconductors such as <span class="math inline">\(\text{CrI}_3\)</span>.</p>
+<p>The sum rule~ used can be written as
+<span class="math display">\[\begin{equation}
+  \frac{M({\bf r}_1)}{\omega} =  \int_\Omega \,\mathrm{d}{\bf r}_2\ \chi^{+-} ({\bf r}_1,{\bf r}_2,{\bf q}=0,\omega),
+\label{eqsumm}
+\end{equation}\]</span>
+where <span class="math inline">\(\Omega\)</span> denotes the unit-cell volume.
+Within RSA,  reduce to two equations for each <span class="math inline">\(\omega\)</span>.
+We further assume that kernel <span class="math inline">\(I(\omega)\)</span> is site-diagonal and <span class="math inline">\({\bf q}\)</span>-independent, allowing it to be determined solely by .
+Note that  ensures the Goldstone magnon mode at <span class="math inline">\({\bf q}=0\)</span> and <span class="math inline">\(\omega=0\)</span>.</p>
+<ol start="2" style="list-style-type: decimal">
+<li><strong>Pair exchange parameters for Heisenberg model</strong></li>
+</ol>
+<p>In adiabatic approximation we map spin susceptibility into a classical Heisenberg model
+<span class="math display">\[\begin{equation}
+  H=-\sum_{i\ne j} J_{ij}\,\hat{\bf e}_i \cdot \hat{\bf e}_j,
+\label{eq:Hamiltonian}  
+\end{equation}\]</span>
+where <span class="math inline">\(\hat{\bf e}_i\)</span> is the unit vector of magnetic moment on site <span class="math inline">\(i\)</span>.
+Effective pair exchange parameters are calculated as
+<span class="math display">\[\begin{equation}
+  J_{ij} = \frac{1}{4}\int_{\Omega_i}  \,\mathrm{d}{{\bf r}_1} \int_{\Omega_j} \,\mathrm{d}{{\bf r}_2}\, m_i({{\bf r}_1}) J({{\bf r}_1},{{\bf r}_2}) m_j({\bf r}_2),
+\end{equation}\]</span>
+where <span class="math inline">\(m_i({{\bf r}})\)</span> is the density of magnetic moment on Cr site <span class="math inline">\(i\)</span> and <span class="math inline">\(J({\bf r}_1,{\bf r}_2)\)</span> is related to <span class="math inline">\(\chi^{+-}({\bf r}_1,{\bf r}_2)\)</span> and satisfies
+<span class="math display">\[\begin{equation}
+\int_{\Omega} \,\mathrm{d}{{\bf r}_2}\, J({\bf r}_1,{\bf r}_2)  \chi^{+-}({\bf r}_2,{\bf r}_3,\omega=0)  = \delta({\bf r}_1-{\bf r}_3).
+\end{equation}\]</span>
+Thus, the effective pair exchange parameters can be obtained from the matrix elements of the inverse of spin susceptibilities matrix~ with a subsequent Fourier transform,
+<span class="math display">\[\begin{eqnarray}
+  &amp;&amp;J_{ij}({\bf R})=  \frac{1}{\Omega _{\rm BZ}}  \int \,\mathrm{d}\mathbf{q}\,  e^{i2\pi\mathbf{ q\cdot R}}  J_{ij}(\mathbf{q}) \\ 
+  &amp;=&amp;\frac{1}{\Omega _{\rm BZ}}  \int \,\mathrm{d}\mathbf{q}\,  e^{i2\pi\mathbf{ q\cdot R}} 
+   ||m_i|| \left[ \left( \chi^{+-}(\mathbf{q},\omega=0)\right)^{-1}\right]_{ij} ||m_j||. \nonumber
+\end{eqnarray}\]</span>
+Here, the <span class="math inline">\(\chi_{ij}^{+-}\)</span> matrices are obtained by projecting onto the functions <span class="math inline">\(\{m_i({\bf r})/||m_i||\}\)</span> representing normalized local spin densities on each magnetic Cr site, which gives a matrix <span class="math inline">\(\chi _{ij}( \mathbf{q},\omega )\)</span> in magnetic basis site indices~.
+This projection corresponds to the rigid spin approximation (RSA).</p>
+<ol start="3" style="list-style-type: decimal">
+<li><strong>Others</strong></li>
+</ol>
+<hr />
+<p>Other relevant publications:</p>
+<p><span class="citation">(<a href="#ref-ke2021ncm" role="doc-biblioref">Ke and Katsnelson 2021</a>; <a href="#ref-li2021prb" role="doc-biblioref">Li et al. 2021</a>)</span>
+<span class="citation">(<a href="#ref-ke2012prbr" role="doc-biblioref">Ke, Schilfgaarde, and Antropov 2012b</a>)</span>
+<span class="citation">(<a href="#ref-ke2011prbr" role="doc-biblioref">Ke et al. 2011</a>)</span></p>
+
+</div>
+</div>
+<h3>Publications</h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-ke2021ncm" class="csl-entry">
+Ke, Liqin, and Mikhail I Katsnelson. 2021. <span>“<span class="nocase">Electron correlation effects on exchange interactions and spin excitations in 2D van der Waals materials</span>.”</span> <em>Npj Computational Materials</em> 7 (4): 1–8. <a href="https://doi.org/10.1038/s41524-020-00469-2">https://doi.org/10.1038/s41524-020-00469-2</a>.
+</div>
+<div id="ref-ke2012prbr" class="csl-entry">
+———. 2012b. <span>“Spin Excitations in <span>K<span class="math inline">\(_2\)</span>Fe<span class="math inline">\(_{4+x}\)</span>Se<span class="math inline">\(_5\)</span></span>: Linear Response Approach.”</span> <em>Phys. Rev. B: Rapid Communication</em> 86: 020402. <a href="https://doi.org/10.1103/PhysRevB.86.020402">https://doi.org/10.1103/PhysRevB.86.020402</a>.
+</div>
+<div id="ref-ke2011prbr" class="csl-entry">
+Ke, Liqin, Mark van Schilfgaarde, Jiji Pulikkotil, Takao Kotani, and Vladimir Antropov. 2011. <span>“Low-Energy Coherent Stoner-Like Excitations in <span>CaFe<span class="math inline">\(_{2}\)</span>As<span class="math inline">\(_{2}\)</span></span>.”</span> <em>Phys. Rev. B: Rapid Communication</em> 83: 060404. <a href="https://doi.org/10.1103/PhysRevB.83.060404">https://doi.org/10.1103/PhysRevB.83.060404</a>.
+</div>
+<div id="ref-li2021prb" class="csl-entry">
+Li, Bing, D. M. Pajerowski, S. X. M. Riberolles, Liqin Ke, J.-Q. Yan, and R. J. McQueeney. 2021. <span>“<span class="nocase">Quasi-two-dimensional ferromagnetism and anisotropic interlayer couplings in the magnetic topological insulator <span class="math inline">\({\mathrm{MnBi}}_{2}{\mathrm{Te}}_{4}\)</span></span>.”</span> <em>Phys. Rev. B</em> 104: L220402. <a href="https://doi.org/10.1103/PhysRevB.104.L220402">https://doi.org/10.1103/PhysRevB.104.L220402</a>.
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="methods-and-codes-developments.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="tight-binding.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/021-abinitio.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["githubio.pdf", "githubio.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
