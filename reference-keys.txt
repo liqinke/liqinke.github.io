@@ -3,7 +3,8 @@ fig:unnamed-chunk-2
 fig:unnamed-chunk-3
 fig:overview-CaFe2As2
 fig:overview-diagram
-fig:overview-RCo
+fig:RCo5
+fig:curling
 fig:unnamed-chunk-4
 fig:tb-feature-works
 fig:unnamed-chunk-5
@@ -11,7 +12,7 @@ fig:unnamed-chunk-6
 fig:unnamed-chunk-7
 research
 d-van-der-waals-materials
-magnetic-topological-materials
+topological-materials
 superconducting-materials
 chiral-magnetism-and-skyrmion
 permanent-magnets
