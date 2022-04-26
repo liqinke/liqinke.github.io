@@ -100,7 +100,7 @@ div.csl-indent {
 <li class="chapter" data-level="1.1" data-path="d-van-der-waals-materials.html"><a href="d-van-der-waals-materials.html"><i class="fa fa-check"></i><b>1.1</b> 2D van der Waals materials</a></li>
 <li class="chapter" data-level="1.2" data-path="magnetic-topological-materials.html"><a href="magnetic-topological-materials.html"><i class="fa fa-check"></i><b>1.2</b> Magnetic topological materials</a></li>
 <li class="chapter" data-level="1.3" data-path="superconducting-materials.html"><a href="superconducting-materials.html"><i class="fa fa-check"></i><b>1.3</b> Superconducting Materials</a></li>
-<li class="chapter" data-level="1.4" data-path="skyrmions-and-chiral-magnetism.html"><a href="skyrmions-and-chiral-magnetism.html"><i class="fa fa-check"></i><b>1.4</b> Skyrmions and Chiral magnetism</a></li>
+<li class="chapter" data-level="1.4" data-path="chiral-magnetism-and-skyrmion.html"><a href="chiral-magnetism-and-skyrmion.html"><i class="fa fa-check"></i><b>1.4</b> Chiral magnetism and Skyrmion</a></li>
 <li class="chapter" data-level="1.5" data-path="permanent-magnets.html"><a href="permanent-magnets.html"><i class="fa fa-check"></i><b>1.5</b> Permanent Magnets</a></li>
 </ul></li>
 <li class="chapter" data-level="2" data-path="methods-and-codes-developments.html"><a href="methods-and-codes-developments.html"><i class="fa fa-check"></i><b>2</b> Methods and codes developments</a>
@@ -135,19 +135,24 @@ div.csl-indent {
 <div id="d-van-der-waals-materials" class="section level2" number="1.1">
 <h2><span class="header-section-number">1.1</span> 2D van der Waals materials</h2>
 <p>Two-dimensional (2D) quantum materials offer potential novel applications in energy-efficient, nanoscale information storage and computing.
-To accelerate the design and optimization for desirable electronic and magnetic properties, we aim to develop cutting-edge, highly-efficient computational methods to predict and control such properties in these quantum materials.
-This project focus on magnetic van der Waals layered materials, which are ideal platforms for 2D magnetism.
-Beyond accelerating the discovery of novel magnetic materials, this project also aims to advance our fundamental understanding of quantum effects in nanostructures for the design of transformative technologies.</p>
+The intimate interplay between correlated electrons, lattice, and magnetism can result in a rich variety of interesting and important physical phenomena.
+In two-dimensional (2D) materials with open <span class="math inline">\(d\)</span>- or <span class="math inline">\(f\)</span>-shells, additional quantum confinement caused by the reduced dimensionality suppresses the screening, and thus may further enhance the electron correlation.
+The recent development of magnetic 2D van der Waals (vdW) materials adds a new magnetic functionality to the already vast appeal of the 2D materials family.
+Their magnetism is very sensitive to, and can be controlled by, pressure, stacking arrangement, and external magnetic and electric fields.
+Such tunability offers opportunities to design and construct new energy-efficient spin-based devices.
+Even in their bulk form, the reduced coordination number in quasi 2D lattices constrains the electron hopping, thereby increasing the role of the Coulomb interaction.
+The resulting enhancement of electron correlations directly affects exchange interactions.
+The critical question is how the magnetic excitations in these confined systems can be understood, controlled, and exploited.</p>
 <hr />
 <blockquote>
 <p><strong>Electron correlation effects on exchange interactions and spin excitations in 2D van der Waals materials</strong><br />
 Liqin Ke and Mikhail I. Katsnelson<br />
 <a href="https://www.nature.com/articles/s41524-020-00469-2"><em>npj</em> Comput Mater 7, 4 (2021)</a></p>
 </blockquote>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-2"></span>
-<img src="images/research/ke2020arxiv.png" alt="Spin excitations calculated from $Im[\chi_{0}( {\bf q}, \omega )]$ and $Im[\chi( {\bf q}, \omega )]$ in Rhobohedral CrI$_3$." width="100%" />
+<div class="figure" style="text-align: left"><span style="display:block;" id="fig:unnamed-chunk-2"></span>
+<img src="images/research/ke2021ncm_fig3.png" alt="\textbf{Exchange parameters, SW spectra and nodal lines calculated using linear spinwave theory.} \textbf{a} Pair exchange parameters for the first few neighbors in R-CrI$_3$. \textbf{b} Atomic configurations around the exchange paths of $\tilde{J}_{2_0}$ and $\tilde{J}_2$. AFM $\tilde{J}_{2}$ corresponds to a Cr-I-I-Cr super-superexchange coupling. \textbf{c} SW spectra along the $\Gamma$--$K$--$M$ path calculated within a $J_1$--$\tilde{J}_{2}$--$\tilde{J}_{2_0}$ ($\tilde{J}_{2}=\tilde{J}_{2_0}={J}_{1}/12$) model and a  $J_1$--$\tilde{J}_{2}$ ($\tilde{J}_{2}={J}_{1}/6$)  model. \textbf{d} Dirac nodal lines, where the magnon bands cross, wind around the $K$-point and along the $\hat{k}_{z}$ direction; the exchange parameters calculated in QSGW$+U$ are used." width="70%" />
 <p class="caption">
-Figure 1.1: Spin excitations calculated from <span class="math inline">\(Im[\chi_{0}( {\bf q}, \omega )]\)</span> and <span class="math inline">\(Im[\chi( {\bf q}, \omega )]\)</span> in Rhobohedral CrI<span class="math inline">\(_3\)</span>.
+Figure 1.1:   Pair exchange parameters for the first few neighbors in R-CrI<span class="math inline">\(_3\)</span>.  Atomic configurations around the exchange paths of <span class="math inline">\(\tilde{J}_{2_0}\)</span> and <span class="math inline">\(\tilde{J}_2\)</span>. AFM <span class="math inline">\(\tilde{J}_{2}\)</span> corresponds to a Cr-I-I-Cr super-superexchange coupling.  SW spectra along the <span class="math inline">\(\Gamma\)</span>–<span class="math inline">\(K\)</span>–<span class="math inline">\(M\)</span> path calculated within a <span class="math inline">\(J_1\)</span>–<span class="math inline">\(\tilde{J}_{2}\)</span>–<span class="math inline">\(\tilde{J}_{2_0}\)</span> (<span class="math inline">\(\tilde{J}_{2}=\tilde{J}_{2_0}={J}_{1}/12\)</span>) model and a <span class="math inline">\(J_1\)</span>–<span class="math inline">\(\tilde{J}_{2}\)</span> (<span class="math inline">\(\tilde{J}_{2}={J}_{1}/6\)</span>) model.  Dirac nodal lines, where the magnon bands cross, wind around the <span class="math inline">\(K\)</span>-point and along the <span class="math inline">\(\hat{k}_{z}\)</span> direction; the exchange parameters calculated in QSGW<span class="math inline">\(+U\)</span> are used.
 </p>
 </div>
 <!-- ```{r, echo=FALSE, out.width='90%', fig.align='center', fig.cap='Spin excitations calculated in CrI$_3$.'} -->
@@ -157,13 +162,13 @@ Figure 1.1: Spin excitations calculated from <span class="math inline">\(Im[\chi
 <hr />
 <ul>
 <li>2022
-<span class="citation">(<a href="#ref-liu2022afm" role="doc-biblioref">Liu et al. 2022</a>; <a href="#ref-lee2022arxiv" role="doc-biblioref">Lee et al. 2022</a>)</span></li>
+<span class="citation">(<a href="#ref-liu2022afm" role="doc-biblioref">Liu et al. 2022</a>; <a href="#ref-lee2022arxiv" role="doc-biblioref"><strong>lee2022arxiv?</strong></a>)</span></li>
 <li>2021
 <span class="citation">(<a href="#ref-ke2021ncm" role="doc-biblioref">Ke and Katsnelson 2021</a>; <a href="#ref-lee2021prb" role="doc-biblioref">Lee et al. 2021</a>; <a href="#ref-mkhitaryan2021prb" role="doc-biblioref">Mkhitaryan and Ke 2021</a>; <a href="#ref-gordon2021jpda" role="doc-biblioref">Gordon et al. 2021</a>)</span></li>
 <li>2020
 <span class="citation">(<a href="#ref-lee2020prbr" role="doc-biblioref">Lee, Kotani, and Ke 2020</a>)</span><br />
 </li>
-<li>2019
+<li>2019 <span class="math inline">\(\ge\)</span>
 <span class="citation">(<a href="#ref-ke2019prb" role="doc-biblioref">Ke 2019</a>)</span></li>
 </ul>
 
@@ -184,9 +189,6 @@ Lee, Y., V. N. Antonov, B. N. Harmon, and Liqin Ke. 2021. <span>“<span class="
 		  \mathrm{Cr}\mathrm{Ge}{\mathrm{Te}}_{3}\)</span>: A first-principles study</span>.”</span> <em>Phys. Rev. B</em> 103: 134407. <a href="https://doi.org/10.1103/PhysRevB.103.134407">https://doi.org/10.1103/PhysRevB.103.134407</a>.
 <div id="ref-lee2020prbr" class="csl-entry">
 Lee, Y., Takao Kotani, and Liqin Ke. 2020. <span>“<span class="nocase">Role of nonlocality in exchange correlation for magnetic two-dimensional van der Waals materials</span>.”</span> <em>Phys. Rev. B</em> 101: 241409. <a href="https://doi.org/10.1103/PhysRevB.101.241409">https://doi.org/10.1103/PhysRevB.101.241409</a>.
-</div>
-<div id="ref-lee2022arxiv" class="csl-entry">
-Lee, Y., R. Skomski, X. Wang, P. P. Orth, A. K. Pathak, B. N. Harmon, R. J. McQueeney, and Liqin Ke. 2022. <span>“<span class="nocase">Interplay between magnetism and band topology in Kagome magnets <span class="math inline">\(R\)</span>Mn<span class="math inline">\(_6\)</span>Sn<span class="math inline">\(_6\)</span></span>.”</span> <a href="https://arxiv.org/abs/2201.11265">https://arxiv.org/abs/2201.11265</a>.
 </div>
 <div id="ref-liu2022afm" class="csl-entry">
 Liu, Yu, Myung-Geun Han, Yongbin Lee, Michael O. Ogunbunmi, Qianheng Du, Christie Nelson, Zhixiang Hu, et al. 2022. <span>“<span class="nocase">Polaronic Conductivity in Cr<span class="math inline">\(_2\)</span>Ge<span class="math inline">\(_2\)</span>Te<span class="math inline">\(_6\)</span> Single Crystals</span>.”</span> <em>Advanced Functional Materials</em>, 2105111.

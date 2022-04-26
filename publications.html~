@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Publications | githubio.knit</title>
+  <meta name="description" content="Personal research webpage on github.io" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Publications | githubio.knit" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Personal research webpage on github.io" />
+  <meta name="github-repo" content="github.com/liqinke/liqinke.github.io" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Publications | githubio.knit" />
+  
+  <meta name="twitter:description" content="Personal research webpage on github.io" />
+  
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="analytical-modeling.html"/>
+
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./index.html">Liqin Ke</a></li>
+
+<li class="divider"></li>
+<li><a href="index.html#section"></a></li>
+<li class="chapter" data-level="" data-path="about.html"><a href="about.html"><i class="fa fa-check"></i>About</a></li>
+<li class="chapter" data-level="1" data-path="research.html"><a href="research.html"><i class="fa fa-check"></i><b>1</b> Research</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="d-van-der-waals-materials.html"><a href="d-van-der-waals-materials.html"><i class="fa fa-check"></i><b>1.1</b> 2D van der Waals materials</a></li>
+<li class="chapter" data-level="1.2" data-path="magnetic-topological-materials.html"><a href="magnetic-topological-materials.html"><i class="fa fa-check"></i><b>1.2</b> Magnetic topological materials</a></li>
+<li class="chapter" data-level="1.3" data-path="superconducting-materials.html"><a href="superconducting-materials.html"><i class="fa fa-check"></i><b>1.3</b> Superconducting Materials</a></li>
+<li class="chapter" data-level="1.4" data-path="chiral-magnetism-and-skyrmion.html"><a href="chiral-magnetism-and-skyrmion.html"><i class="fa fa-check"></i><b>1.4</b> Chiral magnetism and Skyrmion</a></li>
+<li class="chapter" data-level="1.5" data-path="permanent-magnets.html"><a href="permanent-magnets.html"><i class="fa fa-check"></i><b>1.5</b> Permanent Magnets</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="methods-and-codes-developments.html"><a href="methods-and-codes-developments.html"><i class="fa fa-check"></i><b>2</b> Methods and codes developments</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="ab-initio-linear-response.html"><a href="ab-initio-linear-response.html"><i class="fa fa-check"></i><b>2.1</b> <em>Ab initio</em> linear response</a></li>
+<li class="chapter" data-level="2.2" data-path="tight-binding.html"><a href="tight-binding.html"><i class="fa fa-check"></i><b>2.2</b> Tight-binding</a></li>
+<li class="chapter" data-level="2.3" data-path="spinwave-theory.html"><a href="spinwave-theory.html"><i class="fa fa-check"></i><b>2.3</b> Spinwave theory</a></li>
+<li class="chapter" data-level="2.4" data-path="micromagnetics.html"><a href="micromagnetics.html"><i class="fa fa-check"></i><b>2.4</b> Micromagnetics</a></li>
+<li class="chapter" data-level="2.5" data-path="analytical-modeling.html"><a href="analytical-modeling.html"><i class="fa fa-check"></i><b>2.5</b> Analytical modeling</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="publications.html"><a href="publications.html"><i class="fa fa-check"></i>Publications</a></li>
+<li class="divider"></li>
+<li><a href="https://liqinke.github.io" target="blank">liqinke.github.io</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./"></a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="publications" class="section level1 unnumbered">
+<h1>Publications</h1>
+
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div class="csl-entry">
+Antropov, Vladimir, Liqin Ke, and Daniel Åberg. 2014. <span>“Constituents of Magnetic Anisotropy and a Screening of Spin-Orbit Coupling in Solids.”</span> <em>Solid State Communications</em> 194 (0): 35–38. https://doi.org/<a href="http://dx.doi.org/10.1016/j.ssc.2014.06.003">http://dx.doi.org/10.1016/j.ssc.2014.06.003</a>.
+</div>
+<div class="csl-entry">
+Gordon, Elijah, Vagharsh Mkhitaryan, Haijun Zhao, Yongbin Lee, and Liqin Ke. 2021. <span>“Magnetic Interactions and Spin Excitations in van Der <span class="nocase">Waals ferromagnet VI<span class="math inline">\(_3\)</span></span>.”</span> <em>Journal of Physics D: Applied Physics</em>. <a href="http://iopscience.iop.org/article/10.1088/1361-6463/ac1bd3">http://iopscience.iop.org/article/10.1088/1361-6463/ac1bd3</a>.
+</div>
+<div class="csl-entry">
+Islam, Farhan, Elijah Gordon, Pinaki Das, Yong Liu, Liqin Ke, Douglas L. Abernathy, Robert J. McQueeney, and David Vaknin. 2020. <span>“Spin Dynamics in Antiferromagnetic Oxypnictides and Fluoropnictides: <span>LaMnAsO</span>, <span>LaMnSbO</span>, and <span>BaMnAsF</span>.”</span> <em>Phys. Rev. B</em> 101: 155119. <a href="https://doi.org/10.1103/PhysRevB.101.155119">https://doi.org/10.1103/PhysRevB.101.155119</a>.
+</div>
+<div class="csl-entry">
+Ke, Liqin. 2019. <span>“Intersublattice Magnetocrystalline Anisotropy Using a Realistic Tight-Binding Method Based on Maximally Localized <span>Wannier</span> Functions.”</span> <em>Phys. Rev. B</em> 99: 054418. <a href="https://doi.org/10.1103/PhysRevB.99.054418">https://doi.org/10.1103/PhysRevB.99.054418</a>.
+</div>
+<div class="csl-entry">
+Ke, Liqin, Kirill D. Belashchenko, Mark van Schilfgaarde, Takao Kotani, and Vladimir P. Antropov. 2013. <span>“Effects of Alloying and Strain on the Magnetic Properties of <span>Fe<span class="math inline">\(_{16}\)</span>N<span class="math inline">\(_2\)</span></span>.”</span> <em>Phys. Rev. B</em> 88: 024404. <a href="https://doi.org/10.1103/PhysRevB.88.024404">https://doi.org/10.1103/PhysRevB.88.024404</a>.
+</div>
+<div class="csl-entry">
+Ke, Liqin, Bruce N. Harmon, and Matthew J. Kramer. 2017. <span>“Electronic Structure and Magnetic Properties in <span class="nocase"><span class="math inline">\({T}_{2}\)</span><span>AlB</span><span class="math inline">\(_{2}\)</span> (<span class="math inline">\(T\)</span>=Fe, Mn, Cr, Co, and Ni) and their alloys</span>.”</span> <em>Phys. Rev. B</em> 95: 104427. <a href="https://doi.org/10.1103/PhysRevB.95.104427">https://doi.org/10.1103/PhysRevB.95.104427</a>.
+</div>
+<div class="csl-entry">
+Ke, Liqin, and Duane D. Johnson. 2016. <span>“Intrinsic Magnetic Properties in <span class="nocase"><span class="math inline">\(R\)</span>(Fe<span class="math inline">\(_{1-x}\)</span>Co<span class="math inline">\(_x\)</span>)<span class="math inline">\(_{11}\)</span>Ti<span class="math inline">\(Z\)</span> (<span class="math inline">\(R\)</span>=Y and Ce; <span class="math inline">\(Z\)</span>=H, C, and N)</span>.”</span> <em>Phys. Rev. B</em> 94: 024423. <a href="https://doi.org/10.1103/PhysRevB.94.024423">https://doi.org/10.1103/PhysRevB.94.024423</a>.
+</div>
+<div class="csl-entry">
+Ke, Liqin, and Mikhail I Katsnelson. 2021. <span>“<span class="nocase">Electron correlation effects on exchange interactions and spin excitations in 2D van der Waals materials</span>.”</span> <em>Npj Computational Materials</em> 7 (4): 1–8. <a href="https://doi.org/10.1038/s41524-020-00469-2">https://doi.org/10.1038/s41524-020-00469-2</a>.
+</div>
+<div class="csl-entry">
+Ke, Liqin, D. A. Kukusta, and Duane D. Johnson. 2016. <span>“Origin of Magnetic Anisotropy in Doped <span>Ce<span class="math inline">\(_2\)</span>Co<span class="math inline">\(_{17}\)</span></span> Alloys.”</span> <em>Phys. Rev. B</em> 94: 144429. <a href="https://doi.org/10.1103/PhysRevB.94.144429">https://doi.org/10.1103/PhysRevB.94.144429</a>.
+</div>
+<div class="csl-entry">
+Ke, Liqin, and Mark van Schilfgaarde. 2015. <span>“Band-Filling Effect on Magnetic Anisotropy Using a <span>G</span>reen’s Function Method.”</span> <em>Phys. Rev. B</em> 92: 014423. <a href="https://doi.org/10.1103/PhysRevB.92.014423">https://doi.org/10.1103/PhysRevB.92.014423</a>.
+</div>
+<div class="csl-entry">
+Ke, Liqin, Mark van Schilfgaarde, and Vladimir Antropov. 2012a. <span>“Doping-Induced Metallicity and Coexistence of Magnetic Subsystems in <span>K<span class="math inline">\(_2\)</span>Fe<span class="math inline">\(_{4+x}\)</span>Se<span class="math inline">\(_5\)</span></span>.”</span> <em>Solid State Communications</em> 152 (19): 1846–49. https://doi.org/<a href="https://doi.org/10.1016/j.ssc.2012.06.011">https://doi.org/10.1016/j.ssc.2012.06.011</a>.
+</div>
+<div class="csl-entry">
+Ke, Liqin, Mark van Schilfgaarde, and Vladimir P. Antropov. 2012b. <span>“Spin Excitations in <span>K<span class="math inline">\(_2\)</span>Fe<span class="math inline">\(_{4+x}\)</span>Se<span class="math inline">\(_5\)</span></span>: Linear Response Approach.”</span> <em>Phys. Rev. B: Rapid Communication</em> 86: 020402. <a href="https://doi.org/10.1103/PhysRevB.86.020402">https://doi.org/10.1103/PhysRevB.86.020402</a>.
+</div>
+<div class="csl-entry">
+Ke, Liqin, Mark van Schilfgaarde, Jiji Pulikkotil, Takao Kotani, and Vladimir Antropov. 2011. <span>“Low-Energy Coherent Stoner-Like Excitations in <span>CaFe<span class="math inline">\(_{2}\)</span>As<span class="math inline">\(_{2}\)</span></span>.”</span> <em>Phys. Rev. B: Rapid Communication</em> 83: 060404. <a href="https://doi.org/10.1103/PhysRevB.83.060404">https://doi.org/10.1103/PhysRevB.83.060404</a>.
+</div>
+<div class="csl-entry">
+Ke, Liqin, Ralph Skomski, Todd D. Hoffmann, Lin Zhou, Wei Tang, Duane D. Johnson, Matthew J. Kramer, Iver E. Anderson, and C.-Z. Wang. 2017. <span>“Simulation of Alnico Coercivity.”</span> <em>Applied Physics Letters</em> 111 (2): 022403. <a href="https://doi.org/10.1063/1.4992787">https://doi.org/10.1063/1.4992787</a>.
+</div>
+<div class="csl-entry">
+Kim, Tae-Hoon, Licong Peng, Ying Zhang, Liqin Ke, Brandt Jensen, X.-G. Zhang, Matthew J. Kramer, and Lin Zhou. 2019. <span>“Formation and Relaxation Dynamics of Magnetic Skyrmion.”</span> <em>Microscopy and Microanalysis</em> 25 (S2): 36–37. <a href="https://doi.org/10.1017/S1431927619000916">https://doi.org/10.1017/S1431927619000916</a>.
+</div>
+<div class="csl-entry">
+Kim, Tae-Hoon, Haijun Zhao, Phuong-Vu Ong, Brandt A. Jensen, Baozhi Cui, Alexander H. King, Liqin Ke, and Lin Zhou. 2021. <span>“Kinetics of Magnetic Skyrmion Crystal Formation from the Conical Phase.”</span> <em>Nano Letters</em> 21 (13): 5547–54. <a href="https://doi.org/10.1021/acs.nanolett.1c00923">https://doi.org/10.1021/acs.nanolett.1c00923</a>.
+</div>
+<div class="csl-entry">
+Kim, Tae-Hoon, Haijun Zhao, Ben Xu, Brandt A. Jensen, Alexander H. King, Matthew J. Kramer, Cewen Nan, Liqin Ke, and Lin Zhou. 2020. <span>“Mechanisms of Skyrmion and Skyrmion Crystal Formation from the Conical Phase.”</span> <em>Nano Letters</em>. <a href="https://doi.org/10.1021/acs.nanolett.0c00080">https://doi.org/10.1021/acs.nanolett.0c00080</a>.
+</div>
+<div class="csl-entry">
+Krenkel, E. H., M. A. Tanatar, M. Kończykowski, R. Grasset, E. I. Timmons, S. Ghimire, K. R. Joshi, et al. 2022. <span>“<span class="nocase">Possible unconventional pairing in (Ca,Sr)<span class="math inline">\(_3\)</span>(Ir,Rh)<span class="math inline">\(_{4}\)</span>Sn<span class="math inline">\(_{13}\)</span> superconductors revealed by controlling disorder</span>.”</span> <em>Phys. Rev. B</em> 105: 094521. <a href="https://doi.org/10.1103/PhysRevB.105.094521">https://doi.org/10.1103/PhysRevB.105.094521</a>.
+</div>
+<div class="csl-entry">
+Lai, You, Liqin Ke, Jiaqiang Yan, Ross D. McDonald, and Robert J. McQueeney. 2021. <span>“Defect-Driven Ferrimagnetism and Hidden Magnetization in <span><span class="math inline">\({\mathrm{MnBi}}_{2}{\mathrm{Te}}_{4}\)</span></span>.”</span> <em>Phys. Rev. B</em> 103 (May): 184429. <a href="https://doi.org/10.1103/PhysRevB.103.184429">https://doi.org/10.1103/PhysRevB.103.184429</a>.
+</div>
+<div class="csl-entry">
+Lee, Y., V. N. Antonov, B. N. Harmon, and Liqin Ke. 2021. <span>“<span class="nocase">X-ray spectra in the magnetic van der Waals materials <span class="math inline">\({\mathrm{Fe}}_{3}\mathrm{Ge}{\mathrm{Te}}_{2},\)</span> <span class="math inline">\({\mathrm{CrI}}_{3}, \mathrm{and}
+		  \mathrm{Cr}\mathrm{Ge}{\mathrm{Te}}_{3}\)</span>: A first-principles study</span>.”</span> <em>Phys. Rev. B</em> 103: 134407. <a href="https://doi.org/10.1103/PhysRevB.103.134407">https://doi.org/10.1103/PhysRevB.103.134407</a>.
+</div>
+<div class="csl-entry">
+Lee, Y., Takao Kotani, and Liqin Ke. 2020. <span>“<span class="nocase">Role of nonlocality in exchange correlation for magnetic two-dimensional van der Waals materials</span>.”</span> <em>Phys. Rev. B</em> 101: 241409. <a href="https://doi.org/10.1103/PhysRevB.101.241409">https://doi.org/10.1103/PhysRevB.101.241409</a>.
+</div>
+<div class="csl-entry">
+Lee, Y., R. Skomski, X. Wang, P. P. Orth, A. K. Pathak, B. N. Harmon, R. J. McQueeney, and Liqin Ke. 2022. <span>“<span class="nocase">Interplay between magnetism and band topology in Kagome magnets <span class="math inline">\(R\)</span>Mn<span class="math inline">\(_6\)</span>Sn<span class="math inline">\(_6\)</span></span>.”</span> <a href="https://arxiv.org/abs/2201.11265">https://arxiv.org/abs/2201.11265</a>.
+</div>
+<div class="csl-entry">
+Li, Bing, D. M. Pajerowski, S. X. M. Riberolles, Liqin Ke, J.-Q. Yan, and R. J. McQueeney. 2021. <span>“<span class="nocase">Quasi-two-dimensional ferromagnetism and anisotropic interlayer couplings in the magnetic topological insulator <span class="math inline">\({\mathrm{MnBi}}_{2}{\mathrm{Te}}_{4}\)</span></span>.”</span> <em>Phys. Rev. B</em> 104: L220402. <a href="https://doi.org/10.1103/PhysRevB.104.L220402">https://doi.org/10.1103/PhysRevB.104.L220402</a>.
+</div>
+<div class="csl-entry">
+Li, Bing, J.-Q. Yan, D. M. Pajerowski, Elijah Gordon, A.-M. Nedić, Y. Sizyuk, Liqin Ke, P. P. Orth, D. Vaknin, and R. J. McQueeney. 2020. <span>“Competing Magnetic Interactions in the Antiferromagnetic Topological Insulator <span>MnBi<span class="math inline">\(_2\)</span>Te<span class="math inline">\(_4\)</span></span>.”</span> <em>Phys. Rev. Lett.</em> 124: 167204. <a href="https://doi.org/10.1103/PhysRevLett.124.167204">https://doi.org/10.1103/PhysRevLett.124.167204</a>.
+</div>
+<div class="csl-entry">
+Liu, Yu, Myung-Geun Han, Yongbin Lee, Michael O. Ogunbunmi, Qianheng Du, Christie Nelson, Zhixiang Hu, et al. 2022. <span>“<span class="nocase">Polaronic Conductivity in Cr<span class="math inline">\(_2\)</span>Ge<span class="math inline">\(_2\)</span>Te<span class="math inline">\(_6\)</span> Single Crystals</span>.”</span> <em>Advanced Functional Materials</em>, 2105111.
+</div>
+<div class="csl-entry">
+Mkhitaryan, V. V., and Liqin Ke. 2021. <span>“Self-Consistently Renormalized Spin-Wave Theory of Layered Ferromagnets on the Honeycomb Lattice.”</span> <em>Phys. Rev. B</em> 104: 064435. <a href="https://doi.org/10.1103/PhysRevB.104.064435">https://doi.org/10.1103/PhysRevB.104.064435</a>.
+</div>
+<div class="csl-entry">
+Pakhira, Santanu, Y. Lee, Liqin Ke, V. Smetana, A.-V. Mudring, Thomas Heitmann, David Vaknin, and D. C. Johnston. 2021. <span>“Suppression of Antiferromagnetic Order and Strong Ferromagnetic Spin Fluctuations in <span>Ca(Co<span class="math inline">\(_{1-x}\)</span>Ni<span class="math inline">\(_x\)</span>)<span class="math inline">\(_{2-y}\)</span>As<span class="math inline">\(_2\)</span></span> Single Crystals.”</span> <em>Phys. Rev. B</em> 104: 094420. <a href="https://doi.org/10.1103/PhysRevB.104.094420">https://doi.org/10.1103/PhysRevB.104.094420</a>.
+</div>
+<div class="csl-entry">
+Peng, Licong, Ying Zhang, Liqin Ke, Tae-Hoon Kim, Qiang Zheng, Jiaqiang Yan, X.-G. Zhang, et al. 2018. <span>“Relaxation Dynamics of Zero-Field Skyrmions over a Wide Temperature Range.”</span> <em>Nano Letters</em> 18 (12): 7777–83. <a href="https://doi.org/10.1021/acs.nanolett.8b03553">https://doi.org/10.1021/acs.nanolett.8b03553</a>.
+</div>
+<div class="csl-entry">
+Pulikkotil, Jiji, Liqin Ke, Mark van Schilfgaarde, Takao Kotani, and Vladimir Antropov. 2010. <span>“Magnetism and Exchange Coupling in Iron Pnictides.”</span> <em>Superconductor Science and Technology</em> 23 (5): 054012. <a href="http://stacks.iop.org/0953-2048/23/i=5/a=054012">http://stacks.iop.org/0953-2048/23/i=5/a=054012</a>.
+</div>
+<div class="csl-entry">
+Riberolles, S. X. M., Tyler J. Slade, D. L. Abernathy, G. E. Granroth, Bing Li, Y. Lee, P. C. Canfield, B. G. Ueland, Liqin Ke, and R. J. McQueeney. 2022. <span>“<span class="nocase">Competing magnetic energy scales in the topological flat-band ferrimagnet TbMn<span class="math inline">\(_6\)</span>Sn<span class="math inline">\(_6\)</span></span>.”</span> <em>Phys. Rev. X</em>.
+</div>
+<div class="csl-entry">
+Riberolles, S. X. M., Q. Zhang, Elijah Gordon, N. P. Butch, Liqin Ke, J.-Q. Yan, and R. J. McQueeney. 2021. <span>“<span class="nocase">Evolution of magnetic interactions in Sb-substituted <span class="math inline">\({\mathrm{MnBi}}_{2}{\mathrm{Te}}_{4}\)</span></span>.”</span> <em>Phys. Rev. B</em> 104: 064401. <a href="https://doi.org/10.1103/PhysRevB.104.064401">https://doi.org/10.1103/PhysRevB.104.064401</a>.
+</div>
+<div class="csl-entry">
+Timmons, E. I., S. Teknowijoyo, M. Ko ńczykowski, O. Cavani, M. A. Tanatar, Sunil Ghimire, Kyuil Cho, et al. 2020. <span>“<span class="nocase">Electron irradiation effects on superconductivity in <span class="math inline">\({\mathrm{PdTe}}_{2}\)</span>: An application of a generalized Anderson theorem</span>.”</span> <em>Phys. Rev. Research</em> 2 (May): 023140. <a href="https://doi.org/10.1103/PhysRevResearch.2.023140">https://doi.org/10.1103/PhysRevResearch.2.023140</a>.
+</div>
+<div class="csl-entry">
+Ueland, B. G., Santanu Pakhira, Bing Li, A. Sapkota, N. S. Sangeetha, T. G. Perring, Y. Lee, Liqin Ke, D. C. Johnston, and R. J. McQueeney. 2021. <span>“<span class="nocase">Carrier tuning of Stoner ferromagnetism in ThCr<span class="math inline">\(_2\)</span>Si<span class="math inline">\(_2\)</span>-structure cobalt arsenides</span>.”</span> <em>Phys. Rev. B</em> 104: L220410. <a href="https://doi.org/10.1103/PhysRevB.104.L220410">https://doi.org/10.1103/PhysRevB.104.L220410</a>.
+</div>
+<div class="csl-entry">
+Wysocki, A L, K D Belashchenko, L Ke, M van Schilfgaarde, and V P Antropov. 2013. <span>“Biquadratic Magnetic Interaction in Parent Ferropnictides.”</span> <em>Journal of Physics: Conference Series</em> 449 (1): 012024. <a href="http://stacks.iop.org/1742-6596/449/i=1/a=012024">http://stacks.iop.org/1742-6596/449/i=1/a=012024</a>.
+</div>
+<div class="csl-entry">
+Zhou, Lin, Wei Guo, J. D. Poplawsky, Liqin Ke, Wei Tang, I. E. Anderson, and M. J. Kramer. 2018. <span>“On Spinodal Decomposition in Alnico - a Transmission Electron Microscopy and Atom Probe Tomography Study.”</span> <em>Acta Materialia</em> 153: 15–22. https://doi.org/<a href="https://doi.org/10.1016/j.actamat.2018.04.042">https://doi.org/10.1016/j.actamat.2018.04.042</a>.
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="analytical-modeling.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/09-references.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["githubio.pdf", "githubio.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

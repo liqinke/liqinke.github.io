@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title> 2 Methods and codes developments | githubio.knit</title>
+  <title>1.4 Chiral magnetism and Skyrmion | githubio.knit</title>
   <meta name="description" content="Personal research webpage on github.io" />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content=" 2 Methods and codes developments | githubio.knit" />
+  <meta property="og:title" content="1.4 Chiral magnetism and Skyrmion | githubio.knit" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="github.com/liqinke/liqinke.github.io" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content=" 2 Methods and codes developments | githubio.knit" />
+  <meta name="twitter:title" content="1.4 Chiral magnetism and Skyrmion | githubio.knit" />
   
   <meta name="twitter:description" content="Personal research webpage on github.io" />
   
@@ -29,8 +29,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="permanent-magnets.html"/>
-<link rel="next" href="ab-initio-linear-response.html"/>
+<link rel="prev" href="superconducting-materials.html"/>
+<link rel="next" href="permanent-magnets.html"/>
 <script src="libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -132,44 +132,44 @@ div.csl-indent {
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="methods-and-codes-developments" class="section level1" number="2">
-<h1><span class="header-section-number"> 2</span> Methods and codes developments</h1>
-<p><strong><em>Ab initio</em> linear response methods</strong> provide a powerful tool to investigate magnetic interactions and excitations in materials of interest.
-We calculate bare and full dynamic spin susceptibilities to describe magnetic interactions and spin excitations in various materials.
-This method is useful for investigating the magnetic interactions and excitations in itinerant systems since the Stoner excitations and spin-wave excitations are treated on equal footing.</p>
-<p><strong>Tight-binding code</strong> is developed to investigate the detailed band structures and magnetic properties such as exchange coupling and magnetocrystalline anisotropy.
-We start from the realistic TB model constructed using <em>wannier90</em> or non-orthogonal basis and construct Hamiltonian and Green’s functions.
-Some of the functions are listed below.</p>
+<div id="chiral-magnetism-and-skyrmion" class="section level2" number="1.4">
+<h2><span class="header-section-number">1.4</span> Chiral magnetism and Skyrmion</h2>
+<div class="figure" style="text-align: left"><span style="display:block;" id="fig:overview-diagram"></span>
+<img src="images/research/skyrmion/split_cover.png" alt="Skyrmions are a type of quasiparticle with properties that could lead to the next generation of data storage and transfer. Ames Laboratory recently gained great insight into these structures, but scientists are still trying to understand the dynamics of their formation. Ames Laboratory recently discovered a never-before-seen characteristic of skyrmions, which can divide like biological cells. The insight could lead to better control and manipulation of skyrmions, which could help guide the design for high density and energy efficient data storage and transfer devices." width="35%" />
+<p class="caption">
+Figure 1.4: Skyrmions are a type of quasiparticle with properties that could lead to the next generation of data storage and transfer. Ames Laboratory recently gained great insight into these structures, but scientists are still trying to understand the dynamics of their formation. Ames Laboratory recently discovered a never-before-seen characteristic of skyrmions, which can divide like biological cells. The insight could lead to better control and manipulation of skyrmions, which could help guide the design for high density and energy efficient data storage and transfer devices.
+</p>
+</div>
+<p><a href="https://www.ameslab.gov/news/new-discovery-skyrmions-can-split-like-biological-cells">News</a></p>
+<hr />
 <ul>
-<li>Bandstructure, spectra functions, Fermi surface</li>
-<li>Green’s functions (GF)</li>
-<li>Spin-orbit coupling (SOC)</li>
-<li>Perturbation theory treatment of SOC using GF</li>
-<li>Pairwise exchange coupling and magnetocrystalline anisotropy using linear response</li>
-<li>Orthogonal and non-orthogonal basis</li>
-</ul>
-<p><strong>Spinwave theory</strong>, linear or nonlinear, is used in our research to compare with inelastic neutron scattering measurements or estimate Curie temperatures of 2D materials.
-One of the later examples is our applications of renormalized spin-wave theory on magnetic 2D van der Waals materials.</p>
-<ul>
-<li>Nonlinear renormalized spinwave theory</li>
-<li>Disorder effects on spin excitations</li>
-</ul>
-<p><strong>Micromagnetics</strong> is used to investigate extrinsic magnetic properties in permanent magnets or combined with the string method to investigate magnetic skyrmions’ growth mechanism.</p>
-<ul>
-<li>Combination of micromagnetics and the string method</li>
+<li>2021 <span class="citation">(<a href="#ref-kim2021nl" role="doc-biblioref">Kim et al. 2021</a>)</span><br />
+</li>
+<li>2020 <span class="citation">(<a href="#ref-kim2020nl" role="doc-biblioref">Kim et al. 2020</a>)</span><br />
+</li>
+<li>Before 2020 <span class="citation">(<a href="#ref-peng2018nl" role="doc-biblioref">Peng et al. 2018</a>)</span></li>
 </ul>
 
-<!-- \newcommand{\xqwtf}{\chi^{+-} \left( {\bf q}, \omega \right)} -->
-<!-- \newcommand{\xqwtf}{\chi\left({\bf q}, \omega \right)} -->
-<!-- \newcommand{\xqwtb}{\chi_{0}\left( {\bf q}, \omega \right)} -->
+</div>
+<h3>Publications</h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-kim2021nl" class="csl-entry">
+Kim, Tae-Hoon, Haijun Zhao, Phuong-Vu Ong, Brandt A. Jensen, Baozhi Cui, Alexander H. King, Liqin Ke, and Lin Zhou. 2021. <span>“Kinetics of Magnetic Skyrmion Crystal Formation from the Conical Phase.”</span> <em>Nano Letters</em> 21 (13): 5547–54. <a href="https://doi.org/10.1021/acs.nanolett.1c00923">https://doi.org/10.1021/acs.nanolett.1c00923</a>.
+</div>
+<div id="ref-kim2020nl" class="csl-entry">
+Kim, Tae-Hoon, Haijun Zhao, Ben Xu, Brandt A. Jensen, Alexander H. King, Matthew J. Kramer, Cewen Nan, Liqin Ke, and Lin Zhou. 2020. <span>“Mechanisms of Skyrmion and Skyrmion Crystal Formation from the Conical Phase.”</span> <em>Nano Letters</em>. <a href="https://doi.org/10.1021/acs.nanolett.0c00080">https://doi.org/10.1021/acs.nanolett.0c00080</a>.
+</div>
+<div id="ref-peng2018nl" class="csl-entry">
+Peng, Licong, Ying Zhang, Liqin Ke, Tae-Hoon Kim, Qiang Zheng, Jiaqiang Yan, X.-G. Zhang, et al. 2018. <span>“Relaxation Dynamics of Zero-Field Skyrmions over a Wide Temperature Range.”</span> <em>Nano Letters</em> 18 (12): 7777–83. <a href="https://doi.org/10.1021/acs.nanolett.8b03553">https://doi.org/10.1021/acs.nanolett.8b03553</a>.
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="permanent-magnets.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="ab-initio-linear-response.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="superconducting-materials.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="permanent-magnets.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -200,7 +200,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/rstudio/bookdown-demo/edit/master/02-development.Rmd",
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/014-skyrmion.Rmd",
 "text": "Edit"
 },
 "history": {

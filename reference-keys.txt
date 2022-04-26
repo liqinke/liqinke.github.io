@@ -13,7 +13,7 @@ research
 d-van-der-waals-materials
 magnetic-topological-materials
 superconducting-materials
-skyrmions-and-chiral-magnetism
+chiral-magnetism-and-skyrmion
 permanent-magnets
 methods-and-codes-developments
 ab-initio-linear-response

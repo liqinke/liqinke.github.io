@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title> 2 Methods and codes developments | githubio.knit</title>
+  <title>githubio.knit</title>
   <meta name="description" content="Personal research webpage on github.io" />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content=" 2 Methods and codes developments | githubio.knit" />
+  <meta property="og:title" content="githubio.knit" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="github.com/liqinke/liqinke.github.io" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content=" 2 Methods and codes developments | githubio.knit" />
+  <meta name="twitter:title" content="githubio.knit" />
   
   <meta name="twitter:description" content="Personal research webpage on github.io" />
   
@@ -29,8 +29,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="permanent-magnets.html"/>
-<link rel="next" href="ab-initio-linear-response.html"/>
+
+<link rel="next" href="about.html"/>
 <script src="libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -132,44 +132,59 @@ div.csl-indent {
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="methods-and-codes-developments" class="section level1" number="2">
-<h1><span class="header-section-number"> 2</span> Methods and codes developments</h1>
-<p><strong><em>Ab initio</em> linear response methods</strong> provide a powerful tool to investigate magnetic interactions and excitations in materials of interest.
-We calculate bare and full dynamic spin susceptibilities to describe magnetic interactions and spin excitations in various materials.
-This method is useful for investigating the magnetic interactions and excitations in itinerant systems since the Stoner excitations and spin-wave excitations are treated on equal footing.</p>
-<p><strong>Tight-binding code</strong> is developed to investigate the detailed band structures and magnetic properties such as exchange coupling and magnetocrystalline anisotropy.
-We start from the realistic TB model constructed using <em>wannier90</em> or non-orthogonal basis and construct Hamiltonian and Green’s functions.
-Some of the functions are listed below.</p>
-<ul>
-<li>Bandstructure, spectra functions, Fermi surface</li>
-<li>Green’s functions (GF)</li>
-<li>Spin-orbit coupling (SOC)</li>
-<li>Perturbation theory treatment of SOC using GF</li>
-<li>Pairwise exchange coupling and magnetocrystalline anisotropy using linear response</li>
-<li>Orthogonal and non-orthogonal basis</li>
-</ul>
-<p><strong>Spinwave theory</strong>, linear or nonlinear, is used in our research to compare with inelastic neutron scattering measurements or estimate Curie temperatures of 2D materials.
-One of the later examples is our applications of renormalized spin-wave theory on magnetic 2D van der Waals materials.</p>
-<ul>
-<li>Nonlinear renormalized spinwave theory</li>
-<li>Disorder effects on spin excitations</li>
-</ul>
-<p><strong>Micromagnetics</strong> is used to investigate extrinsic magnetic properties in permanent magnets or combined with the string method to investigate magnetic skyrmions’ growth mechanism.</p>
-<ul>
-<li>Combination of micromagnetics and the string method</li>
-</ul>
+<!--bookdown:title:end-->
+<!--bookdown:title:start-->
+<div id="section" class="section level1 unnumbered">
+<h1 class="unnumbered"></h1>
+<!-- ```{r under, echo=FALSE, out.width='40%', fig.align='center'} -->
+<!-- knitr::include_graphics('https://www.vosp.us/wp-content/uploads/Under.jpg') -->
+<!-- ``` -->
+<p><strong><a href="https://liqinke.github.io/about.html">Liqin Ke</a></strong>, Ph.D.<br />
+Staff Scientist, Principal Investigator<br />
+Division of Materials Science &amp; Engineering<br />
+Ames Laboratory, U.S. Department of Energy, Ames, Iowa 50011</p>
+<p>Emai: <a href="mailto:liqinke@ameslab.gov" class="email">liqinke@ameslab.gov</a><br />
+Phone: (515) 294-7892</p>
+<hr />
+<p><strong>Research</strong></p>
+<p>Computational materials science and solid-state physics. Developing and applying electronic structure methods to understand and predict materials’ electrical, magnetic, and optical properties (EMOP).</p>
+<p><strong>Selected recent works</strong></p>
+<p>[9] Interplay between magnetism and band topology in Kagome magnets RMn<span class="math inline">\(_6\)</span>Sn<span class="math inline">\(_6\)</span><br />
+Y. Lee, R. Skomski, X. Wang, P. Orth, A. Pathak, B. N. Harmon, R. J. McQueeney, I. I. Mazin, Liqin Ke<br />
+<a href="https://arxiv.org/abs/2201.11265">arXiv:2201.11265</a> (Under review by Phys. Rev. X)</p>
+<p>[8] Competing magnetic energy scales in the topological flat-band ferrimagnet TbMn<span class="math inline">\(_6\)</span>Sn<span class="math inline">\(_6\)</span><br />
+S. X. M. Riberolles, Tyler J. Slade, D. L. Abernathy, G. E. Granroth, Bing Li, Y. Lee, P. C. Canfield, B. G. Ueland, Liqin Ke, R. J. McQueeney<br />
+<a href="https://journals.aps.org/prx/accepted/66077K63Y871c500d5f54a841d69896903e91f6dc">Phys. Rev. X (<em>In Press</em>, 2022)</a></p>
+<p>[7] Electron correlation effects on exchange interactions and spin excitations in 2D van der Waals materials<br />
+Liqin Ke and Mikhail I. Katsnelson<br />
+<a href="https://www.nature.com/articles/s41524-020-00469-2"><em>npj</em> Comput Mater <strong>7</strong>, 4 (2021)</a></p>
+<p>[6] Self-consistently renormalized spin-wave theory of layered ferromagnets on the honeycomb lattice<br />
+V. V. Mkhitaryan and Liqin Ke<br />
+<a href="https://doi.org/10.1038/s41524-020-00469-2">Phys. Rev. B <strong>104</strong>,064435 (2021)</a></p>
+<p>[5] Role of nonlocality in exchange correlation for magnetic two-dimensional van der Waals materials<br />
+Y. Lee, Takao Kotani, and Liqin Ke<br />
+<a href="https://link.aps.org/doi/10.1103/PhysRevB.101.241409">Phys. Rev. B Rapid communication <strong>101</strong>,241409 (2020)</a></p>
+<p>[4] Intersublattice magnetocrystalline anisotropy using a realistic tight-binding method based on maximally localized Wannier functions<br />
+Liqin Ke<br />
+<a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.99.054418">Phys. Rev. B <strong>99</strong>, 054418 (2019)</a></p>
+<p>[3] Band-filling effect on magnetic anisotropy using a Green’s function method<br />
+Liqin Ke and Mark van Schilfgaarde<br />
+<a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.92.014423">Phys. Rev. B <strong>92</strong>,014423 (2015)</a></p>
+<p>[2] Effects of alloying and strain on the magnetic properties of Fe<span class="math inline">\(_{16}\)</span>N<span class="math inline">\(_2\)</span><br />
+Liqin Ke, K. D. Belashchenko, M. van Schilfgaarde, T. Kotani, and V. P. Antropov<br />
+<a href="http://link.aps.org/doi/10.1103/PhysRevB.88.024404">Phys. Rev. B <strong>88</strong>,024404 (2013)</a></p>
+<p>[1] Low-energy coherent stoner-like excitations in CaFe<span class="math inline">\(_2\)</span>As<span class="math inline">\(_2\)</span><br />
+Liqin Ke, Mark van Schilfgaarde, Jiji Pulikkotil, Takao Kotani, and Vladimir Antropov<br />
+<a href="http://link.aps.org/doi/10.1103/PhysRevB.83.060404">Phys. Rev. B, Rapid communication, <strong>83</strong>,060404 (2011) Editors’ Suggestion</a></p>
 
-<!-- \newcommand{\xqwtf}{\chi^{+-} \left( {\bf q}, \omega \right)} -->
-<!-- \newcommand{\xqwtf}{\chi\left({\bf q}, \omega \right)} -->
-<!-- \newcommand{\xqwtb}{\chi_{0}\left( {\bf q}, \omega \right)} -->
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="permanent-magnets.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="ab-initio-linear-response.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+
+<a href="about.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -200,7 +215,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/rstudio/bookdown-demo/edit/master/02-development.Rmd",
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/index.Rmd",
 "text": "Edit"
 },
 "history": {
